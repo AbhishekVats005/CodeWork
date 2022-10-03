@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 class BankDeposit
@@ -56,12 +56,12 @@ int main(){
     float R;
     int z = 3;
 
-    cout<<"Enter Your  Principal amout , Years , Interest Rate :"<<endl;
+    cout<<"Enter Your  Principal amout : , Years : , Interest Rate :"<<endl;
     cin>>p>>q>>r;
     q1=BankDeposit(p,q,r);
     q1.show();
 
-    cout<<"Enter Your  Principal amout , Years , Interest Rate :"<<endl;
+    cout<<"Enter Your  Principal amout : , Years : , Interest Rate :"<<endl;
     cin>>p>>q>>R;
     q2=BankDeposit(p,q,R);
     q2.show();
